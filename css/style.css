@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(151, 55, 55), rgb(184, 184, 106));
+}
+.container {
+    margin: 0 auto;
+    max-width: 1320px;
+    width: 100%;
+    padding: 0 12px;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.header__logo {
+    font-family: cursive;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.header__list {
+    display: flex;
+}
+.header__link {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+.header__contact {
+    display: flex;
+    column-gap: 20px;
+}
+.header__call,
+.header__email {
+    color: #fff;
+    font-size: 25px;
+    font-family: cursive;
+}
